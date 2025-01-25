@@ -10,28 +10,22 @@
     "lint": "eslint .",
     "test": "jest",
     "preview": "vite preview",
-    "build:css": "postcss src/styles.css -o dist/styles.css",
-    "test": "jest"
+    "build:css": "postcss src/styles.css -o dist/styles.css"
   },
   "dependencies": {
-
     "@docsearch/react": "^3.8.0",
     "@emotion/react": "^11.13.5",
     "@emotion/styled": "^11.13.5",
-
-    "@heroicons/react": "^2.2.0",
-    "@material-tailwind/react": "^2.1.10",
-    "@mui/icons-material": "^6.1.10",
-    "@mui/material": "^6.1.10",
-
     "@fontsource/poppins": "^5.1.0",
     "@fortawesome/fontawesome-svg-core": "^6.7.1",
     "@fortawesome/free-solid-svg-icons": "^6.7.1",
     "@fortawesome/react-fontawesome": "^0.2.2",
+    "@heroicons/react": "^2.2.0",
+    "@material-tailwind/react": "^2.1.10",
+    "@mui/icons-material": "^6.1.10",
+    "@mui/material": "^6.1.10",
     "@react-oauth/google": "^0.12.1",
-
     "autoprefixer": "^10.4.20",
-    "axios": "^1.7.8",
     "gapi-script": "^1.2.0",
     "jwt-decode": "^4.0.0",
     "postcss": "^8.4.49",
@@ -39,15 +33,18 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-icons": "^5.3.0",
-    "react-router-dom": "^7.0.1"
+    "react-router-dom": "^7.1.3"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.26.0",
     "@babel/preset-react": "^7.25.9",
     "@eslint/js": "^9.13.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.2.0",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
     "@vitejs/plugin-react": "^4.3.3",
+    "axios": "^1.7.9",
     "babel-jest": "^29.7.0",
     "eslint": "^9.13.0",
     "eslint-plugin-react": "^7.37.2",
@@ -55,10 +52,8 @@
     "eslint-plugin-react-refresh": "^0.4.14",
     "globals": "^15.11.0",
     "jest": "^29.7.0",
-
-
+    "jest-mock": "^29.7.0",
     "react-test-renderer": "^18.3.1",
-
     "tailwindcss": "^3.4.15",
     "vite": "^5.4.11"
   }
