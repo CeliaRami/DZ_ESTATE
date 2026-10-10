@@ -1,4 +1,4 @@
-# 🇩🇿 DZ-Estate — Real Estate Platform
+# DZ-Estate — Real Estate Platform
 
 **DZ-Estate** is a real estate platform project designed to connect property sellers and buyers or renters in Algeria. It aims to simplify property listing management and help users find properties that match their needs.
 
